@@ -5,31 +5,185 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./public/index.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
   </head>
   <body>
-    <main >
-      <section
-        class="hero w-screen h-screen flex flex-col items-center justify-center "
-      >
-      <div class="flex w-full flex-col items-center justify-center h-[80vh]  bg-gradient-to-br from-indigo-900 to-sky-800">
-        <div class="h-60 w-60 rounded-full overflow-hidden border-solid border-white border-4">
+    <main class="">
+      <section class="text-gray-600 body-font min-h-screen">
+        <div
+          class="container mx-auto flex px-5 py-24 items-center justify-center flex-col"
+        >
           <img
+            class="lg:w-2/6 md:w-3/6 w-60 h-60 mb-10 object-cover object-center rounded-full border-8 border-indigo-500"
+            alt="hero"
             src="./public/IMG_20220531_100116.jpg"
-            class="object-cover"
-            alt=""
           />
+          <div class="text-center lg:w-2/3 w-full">
+            <h1
+              class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+            >
+              hello , i'm subhash dravid
+            </h1>
+            <p class="mb-8 leading-relaxed">
+              hello friends! 👋 i am a web and app developer , i can help you to
+              grow your business 🚀🚀🚀.
+            </p>
+            <div class="flex justify-center">
+              <button
+                class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              >
+                hire me
+              </button>
+              <button
+                class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"
+              >
+                contact me
+              </button>
+            </div>
+
+            <div class="flex justify-center relative">
+              <i
+                class="fa-solid fa-angle-down animate-bounce text-3xl absolute top-16"
+              ></i>
+            </div>
+          </div>
         </div>
-        <p class="p-4 text-center text-white">
-          hello friends! my name is <span>yuva dravid</span>,i am a web
-          developer and app developer. i can help you to grow your business.
-        </p>
-    </div>
-    <div class="h-[20vh] flex items-center justify-center">
-<a href="#"><i class="fa-solid fa-angle-down animate-bounce text-3xl cursor-pointer"></i></a>
-    </div>
-</section>
+      </section>
+
+      <!-- skills -->
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 max-w-7xl mx-auto">
+          <div class="text-center mb-20">
+            <h1
+              class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4"
+            >
+              my skills
+            </h1>
+            <div class="flex mt-6 justify-center">
+              <div
+                class="w-20 h-1 rounded-full bg-indigo-500 inline-flex"
+              ></div>
+            </div>
+          </div>
+          <div
+            class="flex flex-wrap flex-col justify-between items-center"
+          >
+
+
+
+            <div
+              class="p-4  flex flex-col text-center items-center rounded-lg  relative bg-indigo-500"
+            >
+              <div
+                class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0 absolute -top-11"
+              >
+              <i class="fa-solid fa-w"></i>
+              </div>
+              <div class="flex-grow pt-8">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                  website dev.
+                </h2>
+                <p class="leading-relaxed text-base">
+                  i can create the full stack website.
+                </p>
+                <a class="mt-3 text-indigo-500 inline-flex items-center"
+                  >Learn More
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+
+            <div
+            class="p-4  flex flex-col text-center items-center rounded-lg  relative bg-indigo-500"
+          >
+            <div
+              class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0 absolute -top-11"
+            >
+            <i class="fa-brands fa-android"></i>
+            </div>
+            <div class="flex-grow pt-8">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                android app dev.
+              </h2>
+              <p class="leading-relaxed text-base">
+                i can create the android application using flutter.
+              </p>
+              <a class="mt-3 text-indigo-500 inline-flex items-center"
+                >Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+
+          <div
+          class="p-4  flex flex-col text-center items-center rounded-lg  relative bg-indigo-500"
+        >
+          <div
+            class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0 absolute -top-11"
+          >
+          <i class="fa-brands fa-apple"></i>
+          </div>
+          <div class="flex-grow pt-8">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+              ios app dev.
+            </h2>
+            <p class="leading-relaxed text-base">
+              i can create the ios app using flutter.
+            </p>
+            <a class="mt-3 text-indigo-500 inline-flex items-center"
+              >Learn More
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+            
+
+
+
+
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
